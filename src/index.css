@@ -1,0 +1,15 @@
+/* 1. استيراد الخطوط الإنجليزية + الخط العربي من جوجل فونت */
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400&family=Playfair+Display:ital,wght@0,400..900;1,400..900&family=Cormorant+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=EB+Garamond:ital,wght@0,400;0,600;1,400;1,600&family=Lora:ital,wght@0,400;0,500;1,400;1,500&display=swap&family=Marhey:wght@300..700&family=Playpen+Sans+Arabic:wght@100..800&display=swap');
+
+/* 2. استيراد مكتبة Tailwind (الإصدار الرابع) */
+@import "tailwindcss";
+
+/* 3. تعريف الخطوط الخاصة بكِ ليتعرف عليها Tailwind وتصبح كلاسات جاهزة */
+@theme {
+  --font-playfair: "Playfair Display", serif;
+  --font-cormorant: "Cormorant Garamond", serif;
+  --font-ebgaramond: "EB Garamond", serif;
+  --font-lora: "Lora", serif;
+  --font-amiri: "Amiri", serif;
+--font-marhey: "Marhey", sans-serif;
+}

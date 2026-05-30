@@ -1,0 +1,294 @@
+[
+   {
+  "id": 1,
+  "name": "Blue de Chanel",
+  "cat": "التصنيف: أروماتك - خشبية.",
+  "ingradients": "المكونات: شمام، جريب فروت، ليمون، نعناع، بخور، خشب الأرز والصندل.",     
+  "sizes": [
+    { "size": "30ml", "price": "470 EGP" },
+    { "size": "50ml", "price": "490 EGP" },
+    { "size": "100ml", "price": "800 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Men",
+  "img": "/images/Blue.png"
+},
+{
+  "id": 2,
+  "name": "Bacarat Rouge 540",
+  "cat": "التصنيف: شرقي - زهري (نيش)",
+  "ingradients": "المكونات: زعفران، ياسمين، عنبر الحوت، صمغ الصنوبر وخشب الأرز",
+  "sizes": [
+    { "size": "30ml", "price": "440 EGP" },
+    { "size": "50ml", "price": "635 EGP" },
+    { "size": "100ml", "price": "1100 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Unisex",
+  "img": "/images/Bac.png"
+},
+{
+  "id": 3,
+  "name": "Khamrah",
+  "cat": "التصنيف: شرقي - توابل (Gourmand)",
+  "ingradients": ".المكونات: قهوة عربية، زنجبيل، هيل، قرفة، حلويات البرالين، تمر، وفانيليا",
+  "sizes": [
+    { "size": "30ml", "price": "280 EGP" },
+    { "size": "50ml", "price": "365 EGP" },
+    { "size": "100ml", "price": "560 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Unisex",
+  "img": "/images/Kham.png"
+},
+{
+  "id": 4,
+  "name": "Oud Bouquet",
+  "cat":"التصنيف: شرقي - خشبي (Gourmand).",
+  "ingradients": "المكونات: عود، ورد، زعفران، حلويات البرالين وفانيليا.",
+  "sizes": [
+    { "size": "30ml", "price": "250 EGP" },
+    { "size": "50ml", "price": "320 EGP" },
+    { "size": "100ml", "price": "460 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Unisex",
+  "img": "/images/Oud.png"
+},
+{
+  "id": 5,
+  "name": "Tobacco Vanille",
+  "cat":"التصنيف: شرقي - توابل.",
+  "ingradients": "المكونات: أوراق التبغ، فانيليا، كاكاو، توابل وفواكه مجففة.",
+  "sizes": [
+    { "size": "30ml", "price": "360 EGP" },
+    { "size": "50ml", "price": "500 EGP" },
+    { "size": "100ml", "price": "830 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Unisex",
+  "img": "/images/Tobaco.png"
+},
+{
+  "id": 6,
+  "name": "Kalemat",
+  "cat": "التصنيف: شرقي - عنبر.",
+  "ingradients": "المكونات: توت بري، يانسون، خشب الكشمير، عسل وبخور.",
+  "sizes": [
+    { "size": "30ml", "price": "310 EGP" },
+    { "size": "50ml", "price": "400 EGP" },
+    { "size": "100ml", "price": "610 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Unisex",
+  "img": "/images/Kal.png"
+},
+{
+  "id": 7,
+  "name": "Saouvage Elixir",
+  "cat": "التصنيف: أروماتك - خشبية.",
+  "ingradients": "المكونات: قرفة، هيل، جوزة الطيب، لافندر، وعرق السوس.",
+  "sizes": [
+    { "size": "30ml", "price": "320 EGP" },
+    { "size": "50ml", "price": "440 EGP" },
+    { "size": "100ml", "price": "710 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Men",
+  "img": "/images/Sau.png"
+},
+{
+  "id": 8,
+  "name": "ٍSpicebomb",
+  "cat": "التصنيف: شرقي - توابل حار.",
+  "ingradients": "المكونات: فلفل أسود، كمون، تبغ، لافندر وفانيليا.",
+  "sizes": [
+    { "size": "30ml", "price": "280 EGP" },
+    { "size": "50ml", "price": "370 EGP" },
+    { "size": "100ml", "price": "550 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Men",
+  "img": "/images/Sp.png"
+},
+{
+  "id": 9,
+  "name": "Ultra Male",
+  "cat": "التصنيف: شرقي - Fougère",
+  "ingradients": "المكونات: كمثرى، لافندر، نعناع، قرفة وفانيليا سوداء.",
+  "sizes": [
+    { "size": "30ml", "price": "295 EGP" },
+    { "size": "50ml", "price": "395 EGP" },
+    { "size": "100ml", "price": "620 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Men",
+  "img": "/images/Ultra.png"
+},
+{
+  "id": 10,
+  "name": "Love is heavenly",
+  "cat": "التصنيف: زهري - فواكه.",
+  "ingradients": "المكونات: ورد الكيوي، زهر البرتقال، زنبق الماء، والمسك.",
+  "sizes": [
+    { "size": "30ml", "price": "270 EGP" },
+    { "size": "50ml", "price": "350 EGP" },
+    { "size": "100ml", "price": "510 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Women",
+  "img": "/images/Love.png"
+},
+{
+  "id": 11,
+  "name": "Blooming Bouquet",
+  "cat": "التصنيف: زهري منعش.",
+  "ingradients": "المكونات: ماندين (يوسفي)، ورد دمشقي، فاونيا ومسك أبيض.",
+  "sizes": [
+    { "size": "30ml", "price": "290 EGP" },
+    { "size": "50ml", "price": "390 EGP" },
+    { "size": "100ml", "price": "610 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Women",
+  "img": "/images/Bloom.png"
+},
+{
+  "id": 12,
+  "name": "Roses Vanille",
+  "cat": "التصنيف: شرقي - زهري (Sweet).",
+  "ingradients": "المكونات: ليمون، ماء ورد، سكر، فانيليا، مسك أبيض وخشب الأرز.",
+  "sizes": [
+    { "size": "30ml", "price": "230 EGP" },
+    { "size": "50ml", "price": "300 EGP" },
+    { "size": "100ml", "price": "420 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Women",
+  "img": "/images/Rose.png"
+},
+{
+  "id": 13,
+  "name": "Madawi Gold",
+  "cat": "التصنيف: شرقي - فواكه.",
+  "ingradients": "المكونات: هيل، فواكه استوائية، ياسمين، عنبر ومسك.",
+  "sizes": [
+    { "size": "30ml", "price": "305 EGP" },
+    { "size": "50ml", "price": "410 EGP" },
+    { "size": "100ml", "price": "645 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Women",
+  "img": "/images/Mad.png"
+},
+{
+  "id": 14,
+  "name": "Scandal",
+  "cat": "التصنيف: تشيبر - زهري.",
+  "ingradients": "المكونات: عسل، غاردينيا، برتقال دموي، وباتشولي.",
+  "sizes": [
+    { "size": "30ml", "price": "250 EGP" },
+    { "size": "50ml", "price": "320 EGP" },
+    { "size": "100ml", "price": "460 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Women",
+  "img": "/images/Sca.png"
+},
+{
+  "id": 15,
+  "name": "حُبُك",
+  "cat": null,
+  "ingradients": "فوّاحة برائحة السوسن  المُتألّق، مُلائمٌ للأماكِن الجمعِ الطيب",
+  "sizes": [
+    { "size": "125 ml", "price": "475 EGP" }
+  ],
+  "category": "Reed Diffusers",
+  "subCategory": null,
+  "img": "/images/15.png"
+},
+{
+  "id": 16,
+  "name": "سلام",
+  "cat":null,
+  "ingradients": "فوّاحة برائحة الزنبق الباعث على السلام، مُلائمٌ للأماكِن الهادئة",
+  "sizes": [
+    { "size": "125 ml", "price": "475 EGP" }
+  ],
+  "category": "Reed Diffusers",
+  "subCategory": null,
+  "img": "/images/16.png"
+},
+{
+  "id": 17,
+  "name": "مسرّة",
+  "cat": null,
+  "ingradients": "فوّاحة برائحة الياسمين الباعث على الحيويّة والسرور، مُلائمٌ لأماكن صنع الذكريات",
+  "sizes": [
+    { "size": "125 ml", "price": "475 EGP" }
+  ],
+  "category": "Reed Diffusers",
+  "subCategory": null,
+  "img": "/images/17.png"
+},
+{
+  "id": 18,
+  "name": "نمارق",
+  "cat": null,
+  "ingradients": "فوّاحة برائحة جوز الهند الدافئ الباعث على السكينة، مُلائمٌ للأماكن الاستراحة.",
+  "sizes": [
+    { "size": "125 ml", "price": "475 EGP" }
+  ],
+  "category": "Reed Diffusers",
+  "subCategory": null,
+  "img": "/images/18.png"
+},
+{
+  "id": 19,
+  "name": "Charm Body Mist",
+  "cat": "معطّر للجسم مستوحى من عطر Naomi Campbell",
+  "ingradients": ".المكونات: خوخ، فانيليا، هيلوتروب" ,
+  "sizes": [
+    { "size": "220 ml", "price": "260 EGP" }
+  ],
+  "category": "Body Mist",
+  "subCategory": null,
+  "img": "/images/charm.png"
+},
+{
+  "id": 20,
+  "name": "Myth Body Mist",
+  "cat":"معطّر للجسم مستوحى من عطر   Santal Royal.",
+  "ingradients": ".المكونات: عمود، صندل، زهور",
+  "sizes": [
+    { "size": "220 ml", "price": "260 EGP" }
+  ],
+  "category": "Body Mist",
+  "subCategory": null,
+  "img": "/images/myth.png"
+},
+{
+  "id": 21,
+  "name": "Bloom Body Mist",
+  "cat": "معطّر للجسم مستوحى من عطر Burberry Her.",
+  "ingradients": ".المكونات: فراولة، مندرين، مسك، ياسمين",
+  "sizes": [
+    { "size": "220 ml", "price": "260 EGP" }
+  ],
+  "category": "Body Mist",
+  "subCategory": null,
+  "img": "/images/bllom-mist.png"
+},
+{
+  "id": 22,
+  "name": "Gleam Body Mist",
+  "cat": "معطّر للجسم رجالي مستوحى من عطر Lamar Kajal.",
+  "ingradients": ".المكونات: التوت الأحمر، مانغوليا، طحالب",
+  "sizes": [
+    { "size": "220 ml", "price": "260 EGP" }
+  ],
+  "category": "Body Mist",
+  "subCategory": null,
+  "img": "/images/gleam.png"
+}
+]
