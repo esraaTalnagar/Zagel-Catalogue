@@ -290,5 +290,89 @@
   "category": "Body Mist",
   "subCategory": null,
   "img": "/images/gleam.png"
+},
+{
+  "id": 23,
+  "name": "Libre",
+  "cat": "التصنيف: شرقي - فوغير (سرخسي ناعم).",
+  "ingradients": "المكونات: الخزامى (اللافندر)، الماندرين (اليوسفي)، الكشمس الأسود، زهر البرتقال، الياسمين، فانيليا مادغشقر، والمسك.",
+  "sizes": [
+    { "size": "30ml", "price": "280 EGP" },
+    { "size": "50ml", "price": "345 EGP" },
+    { "size": "100ml", "price": "495 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Women",
+  "img": "/images/Libre.jpg"
+},
+{
+  "id": 24,
+  "name": "Lamar Kajal",
+  "cat": "التصنيف: شرقي - زهري (بلمسة فواكه غنية).",
+  "ingradients": "المكونات: الأناناس، التوت الأحمر، التفاح، الهيل، الورد التركي، الياسمين، الفانيليا، المسك، وخشب الأرز",
+  "sizes": [
+    { "size": "30ml", "price": "335 EGP" },
+    { "size": "50ml", "price": "440 EGP" },
+    { "size": "100ml", "price": "695 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Men",
+  "img": "/images/Lamar.jpg"
+},
+{
+  "id": 25,
+  "name": "Santal Royal",
+  "cat": "التصنيف: شرقي - خشبي.",
+  "ingradients": "المكونات: زهر البرتقال، الياسمين، الورد، القرفة، الخوخ، خشب الصندل، العود، الجلد، والمسك.",
+  "sizes": [
+    { "size": "30ml", "price": "315 EGP" },
+    { "size": "50ml", "price": "420 EGP" },
+    { "size": "100ml", "price": "650 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Unisex",
+  "img": "/images/Santal.jpg"
+},
+{
+  "id": 26,
+  "name": "Burberry Her",
+  "cat": "التصنيف: زهري - فواكه - غورماند (سكري).",
+  "ingradients": "المكونات: الفراولة، التوت العليق، التوت الأسود، الكرز، الياسمين، البنفسج، العنبر، والمسك.",
+  "sizes": [
+     { "size": "30ml", "price": "270 EGP" },
+    { "size": "50ml", "price": "340 EGP" },
+    { "size": "100ml", "price": "490 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Women",
+  "img": "/images/Burberry.jpg"
+},
+{
+  "id": 27,
+  "name": "Naomi Campbell",
+  "cat": "التصنيف: شرقي - زهري.",
+  "ingradients": "المكونات: الخوخ، الفلفل الأحمر، الياسمين، الهيليوتروب، الفانيليا، الكراميل، وخشب الصندل.",
+  "sizes": [
+    { "size": "30ml", "price": "265 EGP" },
+    { "size": "50ml", "price": "330 EGP" },
+    { "size": "100ml", "price": "470 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Women",
+  "img": "/images/Naomi.jpg"  
+},
+{
+  "id": 28,
+  "name": "Imagination",
+  "cat": "",
+  "ingradients": ".المكونات: عمود، صندل، زهور",
+  "sizes": [
+    { "size": "30ml", "price": "385 EGP" },
+    { "size": "50ml", "price": "480 EGP" },
+    { "size": "100ml", "price": "775 EGP" }
+  ],
+  "category": "Perfumes",
+  "subCategory": "Men",
+  "img": "/images/Imagination.jpg"
 }
 ]
