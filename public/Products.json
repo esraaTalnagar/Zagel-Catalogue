@@ -11,6 +11,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Men",
+"outOfStock": false,
   "img": "/images/Blue.png"
 },
 {
@@ -25,6 +26,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Unisex",
+  "outOfStock": false,
   "img": "/images/Bac.png"
 },
 {
@@ -39,6 +41,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Unisex",
+  "outOfStock": false,
   "img": "/images/Kham.png"
 },
 {
@@ -53,6 +56,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Unisex",
+  "outOfStock": false,
   "img": "/images/Oud.png"
 },
 {
@@ -67,6 +71,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Unisex",
+  "outOfStock": false,
   "img": "/images/Tobaco.png"
 },
 {
@@ -81,11 +86,12 @@
   ],
   "category": "Perfumes",
   "subCategory": "Unisex",
+  "outOfStock": false,
   "img": "/images/Kal.png"
 },
 {
   "id": 7,
-  "name": "Saouvage Elixir",
+  "name": "Sauvage Elixir",
   "cat": "التصنيف: أروماتك - خشبية.",
   "ingradients": "المكونات: قرفة، هيل، جوزة الطيب، لافندر، وعرق السوس.",
   "sizes": [
@@ -95,6 +101,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Men",
+  "outOfStock": true,
   "img": "/images/Sau.png"
 },
 {
@@ -109,6 +116,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Men",
+  "outOfStock": false,
   "img": "/images/Sp.png"
 },
 {
@@ -123,6 +131,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Men",
+  "outOfStock": false,
   "img": "/images/Ultra.png"
 },
 {
@@ -137,6 +146,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Women",
+  "outOfStock": false,
   "img": "/images/Love.png"
 },
 {
@@ -151,6 +161,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Women",
+  "outOfStock": false,
   "img": "/images/Bloom.png"
 },
 {
@@ -165,6 +176,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Women",
+  "outOfStock": false,
   "img": "/images/Rose.png"
 },
 {
@@ -179,6 +191,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Women",
+  "outOfStock": false,
   "img": "/images/Mad.png"
 },
 {
@@ -193,6 +206,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Women",
+  "outOfStock": false,  
   "img": "/images/Sca.png"
 },
 {
@@ -205,6 +219,7 @@
   ],
   "category": "Reed Diffusers",
   "subCategory": null,
+  "outOfStock": false,
   "img": "/images/15.png"
 },
 {
@@ -217,6 +232,7 @@
   ],
   "category": "Reed Diffusers",
   "subCategory": null,
+  "outOfStock": false,
   "img": "/images/16.png"
 },
 {
@@ -229,6 +245,7 @@
   ],
   "category": "Reed Diffusers",
   "subCategory": null,
+  "outOfStock": false,
   "img": "/images/17.png"
 },
 {
@@ -241,6 +258,7 @@
   ],
   "category": "Reed Diffusers",
   "subCategory": null,
+  "outOfStock": false,
   "img": "/images/18.png"
 },
 {
@@ -253,6 +271,7 @@
   ],
   "category": "Body Mist",
   "subCategory": null,
+  "outOfStock": false,
   "img": "/images/charm.png"
 },
 {
@@ -265,6 +284,7 @@
   ],
   "category": "Body Mist",
   "subCategory": null,
+  "outOfStock": false,
   "img": "/images/myth.png"
 },
 {
@@ -277,6 +297,7 @@
   ],
   "category": "Body Mist",
   "subCategory": null,
+  "outOfStock": false,
   "img": "/images/bllom-mist.png"
 },
 {
@@ -289,6 +310,7 @@
   ],
   "category": "Body Mist",
   "subCategory": null,
+  "outOfStock": false,
   "img": "/images/gleam.png"
 },
 {
@@ -303,6 +325,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Women",
+  "outOfStock": false,
   "img": "/images/Libre.jpg"
 },
 {
@@ -317,6 +340,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Men",
+  "outOfStock": false,
   "img": "/images/Lamar.jpg"
 },
 {
@@ -331,6 +355,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Unisex",
+  "outOfStock": false,
   "img": "/images/Santal.jpg"
 },
 {
@@ -345,6 +370,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Women",
+  "outOfStock": false,
   "img": "/images/Burberry.jpg"
 },
 {
@@ -359,6 +385,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Women",
+  "outOfStock": false,
   "img": "/images/Naomi.jpg"  
 },
 {
@@ -373,6 +400,67 @@
   ],
   "category": "Perfumes",
   "subCategory": "Men",
+  "outOfStock": false,
   "img": "/images/Imagination.jpg"
+},
+{
+  "id": 29,
+  "name": "Gleam Bundle",
+  "cat": "عطر Lamar Kajal مع معطر الجسم Gleam.",
+  "ingradients": ".المكونات: التوت الأحمر، مانغوليا، طحالب",
+  "sizes": [
+    { "size": "30 ml", "price": "595 EGP", "oldPrice": "534 EGP" },
+    { "size": "50 ml", "price": "700 EGP", "oldPrice": "630 EGP" },
+    { "size": "100 ml", "price": "860 EGP", "oldPrice": "460 EGP" }
+  ],
+  "category": "Bundles",
+  "subCategory": null,
+  "outOfStock": false,
+  "img": "/images/BundleGleam.jpg"
+},
+{
+  "id": 30,
+  "name": "Bloom Bundle",
+  "cat": "عطر Burberry Her مع معطر الجسم Bloom.",
+  "ingradients": ".المكونات: فراولة، مندرين، مسك، ياسمين",
+  "sizes": [
+    { "size": "30 ml", "price": "477 EGP", "oldPrice": "530 EGP" },
+    { "size": "50 ml", "price": "540 EGP", "oldPrice": "600 EGP" },
+    { "size": "100 ml", "price": "675 EGP", "oldPrice": "750 EGP" }
+  ],
+  "category": "Bundles",
+  "subCategory": null,
+  "outOfStock": false,
+  "img": "/images/BundleBloom.jpg"
+},
+{
+  "id": 31,
+  "name": "Myth Bundle",
+  "cat": "عطر Santal Royal مع معطر الجسم Myth.",
+  "ingradients": ".المكونات: عمود، صندل، زهور",
+  "sizes": [
+    { "size": "30 ml", "price": "517 EGP", "oldPrice": "575 EGP" },
+    { "size": "50 ml", "price": "610 EGP", "oldPrice": "680 EGP" },
+    { "size": "100 ml", "price": "815 EGP", "oldPrice": "910 EGP" }
+  ],
+  "category": "Bundles",
+  "subCategory": null,
+  "outOfStock": false,
+  "img": "/images/BundleMyth.jpg"
+},
+{
+  "id": 32,
+  "name": "Charm Bundle",
+  "cat": "عطر Naomi Campbell مع معطر الجسم Charm.",
+  "ingradients": ".المكونات: خوخ، فانيليا، هيلوتروب",
+  "sizes": [
+    { "size": "30 ml", "price": "473 EGP", "oldPrice": "525 EGP" },
+    { "size": "50 ml", "price": "540 EGP", "oldPrice": "590 EGP" },
+    { "size": "100 ml", "price": "675 EGP", "oldPrice": "730 EGP" }
+  ],
+  "category": "Bundles",
+  "subCategory": null,
+  "outOfStock": false,
+  "img": "/images/BundleCharm.jpg"
 }
 ]

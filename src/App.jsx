@@ -33,7 +33,7 @@ export default function App() {
       </header>
 
       <div className="flex flex-wrap justify-center gap-x-4 gap-y-2 md:gap-x-8 mb-6 px-4 max-w-xl mx-auto">
-        {['Perfumes', 'Body Mist', 'Reed Diffusers'].map(cat => (
+        {['Perfumes', 'Body Mist', 'Reed Diffusers', 'Bundles'].map(cat => (
           <button 
             key={cat}
             onClick={() => { setActiveCategory(cat); setActiveSub('All'); }}
@@ -46,7 +46,7 @@ export default function App() {
         ))}
       </div>
 
-         {activeCategory === 'Perfumes' && (
+      {activeCategory === 'Perfumes' && (
         <div className="flex flex-wrap justify-center gap-2 mb-8 px-4 max-w-md mx-auto">
           {['All', 'Women', 'Men', 'Unisex'].map(sub => (
             <button 
@@ -63,34 +63,51 @@ export default function App() {
       )}
 
       <div className="max-w-7xl mx-auto px-3 sm:px-6 md:px-8 pb-24">
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6 md:gap-8">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-3 sm:gap-6 md:gap-8">
           {filteredProducts.map(product => (
-            <div key={product.id} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between group">
+            <div key={product.id} className="bg-white rounded-xl shadow-sm hover:shadow-md transition-all duration-300 overflow-hidden border border-gray-100 flex flex-col justify-between group relative">
               
               <div>
-
+                {/* Product Image Container with Out of Stock overlay */}
                 <div className="relative aspect-3/4 w-full overflow-hidden bg-gray-50 rounded-t-xl group">
                   <img 
                     src={product.img} 
                     alt={product.name} 
-                    className="absolute top-0 left-0 w-full h-full object-cover object-center transition-transform duration-500 group-hover:scale-105" 
+                    className={`absolute top-0 left-0 w-full h-full object-cover object-center transition-transform duration-500 ${product.outOfStock ? 'opacity-60 grayscale-[20%]' : 'group-hover:scale-105'}`} 
                   />
+                  {/* Out of Stock Overlay */}
+                  {product.outOfStock && (
+                    <div className="absolute inset-0 bg-white/30 backdrop-blur-[2px] z-10 flex items-center justify-center">
+                      <span className="bg-white/95 text-[#4A2545] px-4 py-1.5 font-bold rounded-full text-[10px] sm:text-xs md:text-sm shadow-md border border-[#D4AF37]">
+                        في طريقهِ إليكم مجددًا
+                      </span>
+                    </div>
+                  )}
                 </div>
                 
                 <div className="p-3 sm:p-4 text-center">
                   <h3 className="text-sm sm:text-base md:text-lg font-bold mb-1 line-clamp-1 font-playfair">{product.name}</h3>
-                  <p className="text-[8px] sm:text-xs font-marhey mt-2  text-gray-500 " >{product.ingradients}</p>
-                  <span className="text-[8px] sm:text-xs font-marhey " style={{color: colors.gold}}>{product.cat}</span>
+                  <p className="text-[8px] sm:text-xs font-marhey mt-2 text-gray-500 line-clamp-2" >{product.ingradients}</p>
+                  <span className="text-[8px] sm:text-xs font-marhey inline-block mt-1" style={{color: colors.gold}}>{product.cat}</span>
                 </div>
               </div>
-              
 
+              {/* Pricing & Sizes Container */}
               <div className="p-3 sm:p-4 pt-0 text-center">
                 <div className="flex flex-col gap-1 border-t pt-2 sm:pt-3">
                   {product.sizes && product.sizes.map((s, idx) => (
-                    <div key={idx} className="flex justify-between px-1 py-0.5 border-b border-dashed text-[10px] sm:text-xs last:border-0 border-gray-100">
+                    <div key={idx} className="flex justify-between items-center px-1 py-0.5 border-b border-dashed text-[10px] sm:text-xs last:border-0 border-gray-100">
                       <span className="font-semibold text-gray-500">{s.size}</span>
-                      <span className="font-bold text-[#4A2545]">{s.price}</span>
+                      
+                      {/* Price Display Logic (Handling Bundles/Discounts) */}
+                      <div className="flex items-center gap-1.5 sm:gap-2">
+                        {s.oldPrice && (
+                          <span className="line-through text-gray-400 text-[9px] sm:text-[13px]">
+                            {s.oldPrice}
+                          </span>
+                        )}
+                        <span className="font-bold text-[#4A2545]">{s.price}</span>
+                      </div>
                     </div>
                   ))}
                 </div>
@@ -99,7 +116,6 @@ export default function App() {
             </div>
           ))}
         </div>
-
 
         {filteredProducts.length === 0 && (
           <p className="text-center text-gray-400 mt-16 font-amiri text-lg">عبق فريد في طريقه إليكم.. انتظرونا</p>
