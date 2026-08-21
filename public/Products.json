@@ -41,7 +41,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Unisex",
-  "outOfStock": true,
+  "outOfStock": false,
   "img": "/images/Kham.png"
 },
 {
@@ -101,7 +101,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Men",
-  "outOfStock": true,
+  "outOfStock": false,
   "img": "/images/Sau.png"
 },
 {
@@ -131,7 +131,7 @@
   ],
   "category": "Perfumes",
   "subCategory": "Men",
-  "outOfStock": true,
+  "outOfStock": false,
   "img": "/images/Ultra.png"
 },
 {
