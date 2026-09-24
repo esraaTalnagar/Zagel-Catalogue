@@ -460,7 +460,7 @@
   ],
   "category": "Bundles",
   "subCategory": null,
-  "outOfStock": false,
+  "outOfStock": true,
   "img": "/images/BundleCharm.jpg"
 }
 ]
